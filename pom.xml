@@ -3,5 +3,5 @@
 	<groupId>org.radhika.myApp</groupId>
 	<artifactId>MavenTestProject</artifactId>
 	<version>1.0</version>
-	<packaging>tar<packaging>
+	<packaging>zip<packaging>
 </project>
