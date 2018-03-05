@@ -7,7 +7,7 @@
       			<directory>org/radhika/myApp/MavenTestProject/1.0</directory>
       			<outputDirectory>Build</outputDirectory>
       			<includes>
-        			<include>*</include>
+        			<include>*.tar.gz</include>
       			</includes>
     		</fileSet>
 	</fileSets>	
