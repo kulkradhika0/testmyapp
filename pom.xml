@@ -3,5 +3,25 @@
 	<groupId>org.radhika.myApp</groupId>
 	<artifactId>MavenTestProject</artifactId>
 	<version>1.0</version>
-	<packaging>zip<packaging>
+	<build>
+    		<plugins>
+			<plugin>
+        			<groupId>org.radhika.myApp</groupId>
+        			<artifactId>MavenTestProject</artifactId>
+        			<version>1.0</version>
+        			<configuration>
+					<descriptor>assembly/bin.xml</descriptor>
+          				<finalName>${pom.name}-${pom.version}</finalName>
+				</configuration>
+				<executions>
+          				<execution>
+            				<phase>package</phase>
+            				<goals>
+              					<goal>single</goal>
+            				</goals>
+          				</execution>
+       				 </executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
