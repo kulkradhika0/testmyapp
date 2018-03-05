@@ -9,7 +9,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
         			<artifactId>maven-assembly-plugin</artifactId>
         			<configuration>
-					<descriptor>assembly/bin.xml</descriptor>
+					<descriptor>bin.xml</descriptor>
           				<finalName>${pom.name}-${pom.version}</finalName>
 				</configuration>
 				<executions>
