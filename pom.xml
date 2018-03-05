@@ -5,6 +5,8 @@
 	<version>1.0</version>
 	<build>
     		<plugins>
+			<!--This plugin compress all your resources into  your release distributable-->
+			<!--The files that you want compress inside your distributable is specified in a bin.xml file-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
         			<artifactId>maven-assembly-plugin</artifactId>
