@@ -1,0 +1,14 @@
+<assembly>
+	<formats>
+    		<format>tar.gz</format>
+  	</formats>
+	<fileSets>
+		<fileSet>
+      			<directory>org/radhika/myApp/MavenTestProject/1.0</directory>
+      			<outputDirectory>Build</outputDirectory>
+      			<includes>
+        			<include>*</include>
+      			</includes>
+    		</fileSet>
+	</fileSets>	
+</assembly>
