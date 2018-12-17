@@ -16,7 +16,7 @@
 				</configuration>
 				<executions>
           				<execution>
-
+                                        <id>make-assembly-1</id>
             				<phase>package</phase>
             				<goals>
               					<goal>single</goal>
